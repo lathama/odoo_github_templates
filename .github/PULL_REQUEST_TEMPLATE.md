@@ -1,8 +1,11 @@
-# Pull Request
-
 ## Is your Git commit [tagged](https://www.odoo.com/documentation/master/contributing/development/git_guidelines.html#tag-and-module-name)?
 
 Does your git commit have proper tags like: `[FIX] [REF] [ADD] [REM] [REV] [MOV] [REL] [IMP] [MERGE] [CLA] [I18N]`
+
+## Have you checked for related PRs?
+
+- [ ] Yes
+- [ ] No
 
 
 ## Module?
@@ -22,4 +25,5 @@ Does your git commit have proper tags like: `[FIX] [REF] [ADD] [REM] [REV] [MOV]
 
 ## I confirm I have signed the CLA and read the PR [guidelines](https://github.com/odoo/odoo/wiki/Contributing#making-pull-requests).
 
-yes/no
+- [ ] Yes
+- [ ] No
