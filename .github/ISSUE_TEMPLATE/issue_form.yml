@@ -1,15 +1,15 @@
-name: Bug
-description: File a bug report
+name: Issue
+description: Open an Issue
 body:
   - type: markdown
     attributes:
       value: |
         Thank you for taking the time to open an issue. To speed the process, we need some information.
-  - type: dropdown
+  - type: checkboxes
     id: version
     attributes:
       label: Odoo Version
-      description: What version of Odoo is this regarding?
+      description: What supported version of Odoo is this regarding?
       options:
         - "15"
         - "16"
