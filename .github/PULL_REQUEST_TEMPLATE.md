@@ -1,4 +1,4 @@
-# Pull Request Template
+# Pull Request
 
 ## Is your Git commit [tagged](https://www.odoo.com/documentation/master/contributing/development/git_guidelines.html#tag-and-module-name)?
 
