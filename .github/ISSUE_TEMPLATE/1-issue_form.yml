@@ -1,10 +1,11 @@
-name: Issue
-description: Open an Issue
+name: Bug
+description: Open a Bug Report on Github
+title: '[BUG] '
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to open an issue. To speed the process, we need some information.
+        Thank you for taking the time to open a bug report. To speed the process, we need some information.
   - type: checkboxes
     id: version
     attributes:
@@ -44,7 +45,3 @@ body:
       label: Relevant log output
       description: If applicable, provide relevant log output. No need for backticks here.
       render: shell
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for taking the time to open an issue. To speed the process, we need some information.
