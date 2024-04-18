@@ -1,0 +1,50 @@
+name: Bug
+description: File a bug report
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to open an issue. To speed the process, we need some information.
+  - type: dropdown
+    id: version
+    attributes:
+      label: Odoo Version
+      description: What version of Odoo is this regarding?
+      options:
+        - "15"
+        - "16"
+        - "17"
+        - "Master"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: "Which operating system and version?"
+      placeholder: "Debian Bookworm"
+    validations:
+      required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Please describe the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: howtoreproduce
+    attributes:
+      label: Howto Reproduce
+      description: Please describe how to reproduce the issue?
+      placeholder: "markdown numbered lists stare with 1. for example"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: If applicable, provide relevant log output. No need for backticks here.
+      render: shell
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to open an issue. To speed the process, we need some information.
