@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Odoo Translation Issues
+  - name: "Odoo Translation Issues"
     url: https://github.com/odoo/odoo/wiki/Translations
-    about: Please use the Transifex tool for Translations
-  - name: Odoo Help Forums
+    about: "Please use the Transifex tool for Translations"
+  - name: "Odoo Help Forums"
     url: https://www.odoo.com/forum/help-1
-    about: Please ask and answer questions here.
-  - name: Odoo Security Reporting
+    about: "Please ask and answer questions here."
+  - name: "Odoo Security Reporting"
     url: https://www.odoo.com/security-report
-    about: Please report security vulnerabilities here.
+    about: "Please report security vulnerabilities here."

@@ -1,5 +1,5 @@
 name: Bug
-description: Open a Bug Report on Github
+description: "Open a Bug Report on Github"
 title: '[BUG] '
 body:
   - type: markdown
@@ -9,8 +9,8 @@ body:
   - type: checkboxes
     id: version
     attributes:
-      label: Odoo Version
-      description: What supported version of Odoo is this regarding?
+      label: "Odoo Version"
+      description: "What supported version of Odoo is this regarding?"
       options:
         - "15"
         - "16"
@@ -21,27 +21,27 @@ body:
   - type: input
     id: os
     attributes:
-      label: Operating system
+      label: "Operating system"
       description: "Which operating system and version?"
       placeholder: "Debian Bookworm"
     validations:
       required: true
   - type: textarea
-    id: issue-description
+    id: bug-description
     attributes:
-      label: Issue Description
-      description: Please describe the issue?
+      label: "Bug Description"
+      description: "Please describe the bug?"
     validations:
       required: true
   - type: textarea
     id: howtoreproduce
     attributes:
-      label: Howto Reproduce
-      description: Please describe how to reproduce the issue?
-      placeholder: "markdown numbered lists stare with 1. for example"
+      label: "Howto Reproduce"
+      description: "Please describe how to reproduce the issue?"
+      placeholder: "Attach screenshots if you have them"
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: If applicable, provide relevant log output. No need for backticks here.
+      label: "Log Output"
+      description: "Log output. Textbox is set to no markup."
       render: shell
