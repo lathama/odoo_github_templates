@@ -4,20 +4,7 @@ title: '[BUG] '
 body:
   - type: markdown
     attributes:
-      value: |
-        Thank you for taking the time to open a bug report. To speed the process, we need some information.
-  - type: checkboxes
-    id: version
-    attributes:
-      label: "Odoo Version"
-      description: "What supported version of Odoo is this regarding?"
-      options:
-        - "15"
-        - "16"
-        - "17"
-        - "Master"
-    validations:
-      required: true
+      value: "Thank you for taking the time to open a bug report. To speed the process, we need some information."
   - type: input
     id: os
     attributes:
@@ -27,7 +14,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: bug-description
+    id: bugdescription
     attributes:
       label: "Bug Description"
       description: "Please describe the bug?"
