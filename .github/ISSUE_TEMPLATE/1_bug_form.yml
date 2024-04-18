@@ -5,16 +5,17 @@ body:
   - type: markdown
     attributes:
       value: "Thank you for taking the time to open a bug report. To speed the process, we need some information."
-  - type: checkboxes
+  - type: dropdown
     id: version
     attributes:
       label: "Odoo Version"
       description: "What supported version of Odoo is this regarding?"
       options:
-        - label: "15"
-        - label: "16"
-        - label: "17"
-        - label: "Master"
+        - "15"
+        - "16"
+        - "17"
+        - "Master"
+        - "Other"
     validations:
       required: true
   - type: input
