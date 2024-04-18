@@ -16,6 +16,7 @@ body:
         - "17"
         - "Master"
         - "Other"
+      default: 2
     validations:
       required: true
   - type: input
