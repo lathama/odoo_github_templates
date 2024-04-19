@@ -46,3 +46,8 @@ body:
       label: "Log Output"
       description: "Log output. Textbox is set to no markup."
       render: shell
+  - type: input
+    id: supportticket
+    attributes:
+      label: "Support Ticket"
+      description: "Optional odoo.com/help ticket number?"
